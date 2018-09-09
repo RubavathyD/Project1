@@ -20,7 +20,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import utils.HtmlReporter;
 
@@ -102,6 +104,8 @@ public class SeMethods extends HtmlReporter implements WdMethods{
 		String text = "";
 		try {			
 			text = ele.getText();
+			WebDriverWait wait=new WebDriverWait(driver,10);
+			wait.until(ExpectedConditions.elementToBeClickable(ele));
 			ele.click();
 			reportStep("The element "+text+" is clicked", "pass");
 		} catch (InvalidElementStateException e) {

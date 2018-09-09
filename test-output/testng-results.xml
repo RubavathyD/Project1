@@ -2,69 +2,36 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="28486" started-at="2018-09-01T06:14:53Z" finished-at="2018-09-01T06:15:22Z">
+  <suite name="Default suite" duration-ms="40374" started-at="2018-09-09T05:40:02Z" finished-at="2018-09-09T05:40:42Z">
     <groups>
     </groups>
-    <test name="leads" duration-ms="28486" started-at="2018-09-01T06:14:53Z" finished-at="2018-09-01T06:15:22Z">
-      <class name="tests.TC001_CreateLead">
-        <test-method status="PASS" signature="startResult()[pri:0, instance:tests.TC001_CreateLead@4e9ba398]" name="startResult" is-config="true" duration-ms="993" started-at="2018-09-01T06:14:52Z" finished-at="2018-09-01T06:14:53Z">
+    <test name="Default test" duration-ms="40374" started-at="2018-09-09T05:40:02Z" finished-at="2018-09-09T05:40:42Z">
+      <class name="tests.Testcase">
+        <test-method status="PASS" signature="startResult()[pri:0, instance:tests.Testcase@71423665]" name="startResult" is-config="true" duration-ms="1117" started-at="2018-09-09T05:40:00Z" finished-at="2018-09-09T05:40:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startResult -->
-        <test-method status="PASS" signature="setData()[pri:0, instance:tests.TC001_CreateLead@4e9ba398]" name="setData" is-config="true" duration-ms="0" started-at="2018-09-01T06:14:53Z" finished-at="2018-09-01T06:14:53Z">
+        <test-method status="PASS" signature="setData()[pri:0, instance:tests.Testcase@71423665]" name="setData" is-config="true" duration-ms="2" started-at="2018-09-09T05:40:02Z" finished-at="2018-09-09T05:40:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method status="PASS" signature="startTestCase()[pri:0, instance:tests.TC001_CreateLead@4e9ba398]" name="startTestCase" is-config="true" duration-ms="10" started-at="2018-09-01T06:14:54Z" finished-at="2018-09-01T06:14:54Z">
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:tests.Testcase@71423665]" name="startTestCase" is-config="true" duration-ms="18" started-at="2018-09-09T05:40:02Z" finished-at="2018-09-09T05:40:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestCase -->
-        <test-method status="PASS" signature="login(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_CreateLead@4e9ba398]" name="login" is-config="true" duration-ms="12589" started-at="2018-09-01T06:14:54Z" finished-at="2018-09-01T06:15:07Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://leaftaps.com/opentaps]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[DemoCSR]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[crmsfa]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.Testcase@71423665]" name="login" is-config="true" duration-ms="9788" started-at="2018-09-09T05:40:02Z" finished-at="2018-09-09T05:40:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String)[pri:0, instance:tests.TC001_CreateLead@4e9ba398]" name="createLead" duration-ms="14203" started-at="2018-09-01T06:15:07Z" data-provider="data" finished-at="2018-09-01T06:15:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[divya]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[wipro]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="test()[pri:0, instance:tests.Testcase@71423665]" name="test" duration-ms="30515" started-at="2018-09-09T05:40:11Z" finished-at="2018-09-09T05:40:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createLead -->
-        <test-method status="PASS" signature="close()[pri:0, instance:tests.TC001_CreateLead@4e9ba398]" name="close" is-config="true" duration-ms="707" started-at="2018-09-01T06:15:21Z" finished-at="2018-09-01T06:15:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- close -->
-        <test-method status="PASS" signature="stopResult()[pri:0, instance:tests.TC001_CreateLead@4e9ba398]" name="stopResult" is-config="true" duration-ms="863" started-at="2018-09-01T06:15:22Z" finished-at="2018-09-01T06:15:23Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="stopResult()[pri:0, instance:tests.Testcase@71423665]" name="stopResult" is-config="true" duration-ms="1059" started-at="2018-09-09T05:40:42Z" finished-at="2018-09-09T05:40:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- stopResult -->
-      </class> <!-- tests.TC001_CreateLead -->
-    </test> <!-- leads -->
-  </suite> <!-- Suite -->
+      </class> <!-- tests.Testcase -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

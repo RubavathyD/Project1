@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
-  <parameter name="uname" value="DemoCSR"/>
-  <parameter name="pwd" value="crmsfa"/>
-  <parameter name="url" value="http://leaftaps.com/opentaps"/>
-  <test thread-count="5" verbose="5" name="leads(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tests.TC001_CreateLead">
+      <class name="tests.Testcase">
         <methods>
           <include name="stopResult"/>
-          <include name="close"/>
-          <include name="createLead" invocation-numbers="0"/>
           <include name="startResult"/>
+          <include name="setData"/>
+          <include name="test"/>
           <include name="startTestCase"/>
           <include name="login"/>
-          <include name="setData"/>
         </methods>
-      </class> <!-- tests.TC001_CreateLead -->
+      </class> <!-- tests.Testcase -->
     </classes>
-  </test> <!-- leads(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
