@@ -9,9 +9,9 @@ public class Details extends ProjectMethod1 {
 		type(Name,"Ruba");
 		return this;
 	}
-public Details view() {
+public List view() {
 	WebElement View = locateElement ("linktext","View Mutual Funds");
 	click(View);
-	return this;
+	return new List();
 }
 }

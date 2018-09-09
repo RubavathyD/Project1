@@ -29,6 +29,8 @@ public void test() throws InterruptedException {
 	.next01()
 	.bank()
 	.name()
-	.view();
+	.view()
+	.getdat()
+	.get();
 }
 }
